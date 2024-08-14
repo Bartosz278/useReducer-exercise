@@ -87,7 +87,6 @@ function App() {
 
   return (
     <div className="app">
-      <Header />
       <Main className="main">
         {status === "loading" && <Loader />}
         {status === "error" && <Error />}
